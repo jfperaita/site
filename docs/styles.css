@@ -8,10 +8,14 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
+    background-image: url('ex24.jpg');
+    background-size: cover; /* This will make the image cover the whole background */
+    background-position: center; /* This will center the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
 }
 
 header {
-    background: #333;
+    background: rgba(51, 51, 51, 0.8); /* Adding transparency to make the background visible */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -38,6 +42,9 @@ nav ul li a {
 
 section {
     margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8); /* Adding a light background to sections for readability */
+    padding: 20px;
+    border-radius: 5px;
 }
 
 h1, h2 {
@@ -51,7 +58,7 @@ a {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: rgba(51, 51, 51, 0.8);
     color: #fff;
     position: fixed;
     bottom: 0;

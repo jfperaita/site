@@ -17,6 +17,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: #fff;
+}
+
 nav ul {
     list-style: none;
     display: flex;
